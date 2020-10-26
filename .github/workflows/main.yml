@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Hello World Action steps
       id: hello
-      uses: carnells/my-javascript-action@v1
+      uses: carnells/my-javascript-action
       with:
         who-to-greet: 'Carnell the OctoBot'
     # Use the output from the 'hello' steps
